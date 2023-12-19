@@ -1,0 +1,21 @@
+.random-episodes{
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    & .episode-image{
+        width: 230px;
+        height: 130px;
+        border-radius: 10px;
+        margin-right: 1rem;
+    }
+    & .list-group{
+        margin: 1rem 0 0 1rem;
+    }
+    & .list-group-item{
+        padding: .25rem;
+        & .term{
+            margin-right: .5rem;
+        }
+    }
+
+}
